@@ -63,7 +63,7 @@ will_train_mode_from_checkpoint=True if args.load==1 else False
 learning_rate0=args.lr
 l2_decay=args.l2
 
-dataset_list={'sst', 'cola'}
+dataset_list={'sst', 'cola', 'mr'}
 # hate: 10k, mr: 6753, sst: 7792, r8: 5211
 
 total_train_epochs = 9 
